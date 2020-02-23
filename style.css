@@ -1,0 +1,99 @@
+.menu {
+  background-color: #f2f2f2;
+}
+
+.accueil {
+  margin-right: 40px;
+  margin-left: 40px;
+  font-family: "Trueno";
+  font-size: 16px;
+  line-height: 30px;
+  color: #2d2d2d;
+}
+
+.projets {
+  margin-right: 40px;
+  font-family: "Trueno";
+  font-size: 16px;
+  line-height: 30px;
+  color: #585757;
+}
+
+.contact {
+  font-family: "Trueno";
+  font-size: 16px;
+  line-height: 30px;
+  color: #585757;
+}
+
+main {
+  margin-left: 20px;
+}
+
+h1 {
+  position: absolute;
+  width: 1205px;
+  height: 131px;
+  left: 55px;
+  top: 230px;
+  font-family: "Trueno";
+  font-weight: normal;
+  font-size: 60px;
+}
+
+.employment {
+  position: absolute;
+  width: 1205px;
+  height: 52px;
+  left: 55px;
+  top: 340px;
+  font-family: "Trueno";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+}
+
+.description {
+  position: absolute;
+  width: 1205px;
+  height: 119px;
+  left: 55px;
+  top: 420px;
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+}
+
+.cta_propos {
+  position: absolute;
+  width: 132px;
+  height: 17px;
+  left: 55px;
+  top: 535px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.propos {
+  width: 120px;
+  line-height: 30px;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: bold;
+  border: 1px solid #a3a3a3;
+  color: #2d2d2d;
+  border-radius: 20px;
+}
+
+.icones {
+  position: absolute;
+  width: 213px;
+  height: 58px;
+  left: 45px;
+  top: 590px;
+  margin-top: 10px;
+}
+
+.dribble {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
