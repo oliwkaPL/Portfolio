@@ -1,5 +1,67 @@
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: "Trueno";
+}
 .menu {
-  background-color: #f2f2f2;
+  background-color: red;
+}
+ul {
+  background: red;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: black;
+}
+
+li:hover,
+li:focus-within {
+  background: rgb(130, 127, 127);
+  cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+  background: #f2f2f2;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
 }
 
 .accueil {
@@ -7,21 +69,120 @@
   margin-left: 40px;
   font-family: "Trueno";
   font-size: 16px;
-  line-height: 30px;
-  color: #2d2d2d;
 }
-
 .projets {
   margin-right: 40px;
   font-family: "Trueno";
   font-size: 16px;
-  line-height: 30px;
-  color: #585757;
 }
-
 .contact {
   font-family: "Trueno";
   font-size: 16px;
-  line-height: 30px;
-  color: #585757;
+}
+
+h1 {
+  position: absolute;
+  width: 1205px;
+  height: 131px;
+  left: 55px;
+  top: 230px;
+  font-family: "Trueno";
+  font-weight: normal;
+  font-size: 60px;
+  text-align: right;
+}
+header {
+  /* Start on Row 1 */
+  grid-row: 1;
+  /* Start on the first column line and extend all the to the last column line */
+  grid-column: 1 / 4;
+}
+
+.sidebar-left {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the first column line and stop at the next column line */
+  grid-column: 1 / 2;
+}
+
+article {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the second column line and stop at the third column line */
+  grid-column: 2 / 3;
+}
+
+.sidebar-right {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the third column line and stop at the last column line */
+  grid-column: 3 / 4;
+}
+
+footer {
+  /* Start on Row 3, the last row */
+  grid-row: 3;
+  /* Start on the first column line and extend all the to the last column line */
+  grid-column: 1 / 4;
+}
+
+/*.item0 {
+  grid-area: m0;
+  font-family: "Trueno";
+  font-weight: normal;
+  font-size: 60px;
+}
+.item1 {
+  grid-area: m1;
+}
+.item6 {
+  grid-area: m1;
+}
+.item2 {
+  grid-area: m2;
+}
+.item3 {
+  grid-area: m3;
+}
+.item4 {
+  grid-area: m4;
+}
+.item5 {
+  grid-area: text;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "m0 m0"
+    "m1 text"
+    "m2 text"
+    "m3 text"
+    "m4 text"
+    "m5 text";
+
+  grid-column-gap: 100px;
+  background-color: white;
+  padding: 100px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 10px 100px;
+  font-size: 20px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  /*height: 100px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

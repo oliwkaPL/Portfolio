@@ -79,34 +79,6 @@ ul li ul li {
   font-family: "Trueno";
   font-size: 16px;
 }
-/**
-.menu {
-  background-color: #f2f2f2;
-}
-
-.accueil {
-  margin-right: 40px;
-  margin-left: 40px;
-  font-family: "Trueno";
-  font-size: 16px;
-  line-height: 30px;
-  color: #2d2d2d;
-}
-
-.projets {
-  margin-right: 40px;
-  font-family: "Trueno";
-  font-size: 16px;
-  line-height: 30px;
-  color: #585757;
-}
-
-.contact {
-  font-family: "Trueno";
-  font-size: 16px;
-  line-height: 30px;
-  color: #585757;
-}*/
 
 main {
   margin-left: 20px;
@@ -158,8 +130,8 @@ h1 {
   position: absolute;
   width: 132px;
   height: 17px;
-  left: 55px;
-  top: 535px;
+  left: 45px;
+  top: 548px;
   font-size: 13px;
   text-align: center;
 }
