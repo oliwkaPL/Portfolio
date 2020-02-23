@@ -10,11 +10,24 @@
   <body>
     <header>
       <nav>
-          <section class="menu">
+          <ul class="menu">
+            <li><a class ="accueil" href="index.html">Accueil</a></li>
+            <li><a class="projets" href="#" aria-haspopup="true">projets</a>
+              <ul class="dropdown" aria-label="submenu">
+                <li><a href="#">Projet Ux</a></li>
+                <li><a href="#">Projet JS</a></li>
+                <li><a href="#">Projet WEB</a></li>
+              </ul>
+            </li>
+            <li><a class="contact" href="assets/link/contact.html">Contact</a></li>
+                
+          </ul>
+          
+          <!--section class="menu">
             <a class="accueil" href="index.html">Accueil</a>
             <a class="projets" href="assets/link/projets.html">Projets</a>
             <a class="contact" href="assets/link/contact.html">Contact</a>
-          </section>
+          </section-->
         </div>
       </nav>
     </header>
@@ -25,12 +38,18 @@
         Etudiante à Hétic en Bachelor Web, je suis déterminée et animée par l'envie d'apprendre toujours plus.
       </p>
       <div class="cta_propos">
-        <p class="propos">A propos de moi</p>
+        <a class="propos" href="assets/link/a_propos.html">A propos de moi</a>
       </div>
       <div class="icones">
-        <img src="assets/icon/git_hub.png" alt="icon_git_hub" />
-        <img src="assets/icon/linked_in.png" alt="icon_linked_in" />
-        <img class="dribble" src="assets/icon/dribble.png" alt="icon_dribble" />
+        <a href="https://github.com/oliwkaPL" taget="_blank" >
+          <img src="assets/icon/git_hub.png" alt="icon_git_hub">
+        </a> 
+        <a href="https://www.linkedin.com/in/oliwia-ch%C3%AAne-9aa656194/" taget="_blank" >
+          <img src="assets/icon/linked_in.png" alt="icon_git_hub">
+        </a> 
+        <a href="https://dribbble.com/oliwka_pl" taget="_blank" >
+          <img class="dribble" src="assets/icon/dribble.png" alt="icon_git_hub">
+        </a>
       </div>
     </main>
   </body>
