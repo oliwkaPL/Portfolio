@@ -67,11 +67,13 @@ ul li ul li {
   font-family: "Trueno";
   font-size: 16px;
 }
+
 .projets {
   margin-right: 40px;
   font-family: "Trueno";
   font-size: 16px;
 }
+
 .contact {
   font-family: "Trueno";
   font-size: 16px;
@@ -80,13 +82,15 @@ ul li ul li {
 main {
   margin-left: 20px;
 }
-.carousel-wrapper{
+
+.carousel-wrapper {
   height:1000px;
   position:relative;
   width:1000px;
   margin:0 auto;
 }
-.carousel-item{
+
+.carousel-item {
   position:absolute;
   top:100px;
   bottom:0;
@@ -96,7 +100,12 @@ main {
   opacity:0;
   transition: all 0.5s ease-in-out;
 }
-.arrow{
+
+.carousel-wrapper {
+  font-family:"Trueno";
+}
+
+.arrow {
   border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -115,7 +124,7 @@ main {
   position:absolute;
   top:50%;
   transform:translateY(-50%) rotate(-45deg);
-  }
+}
 
 .light{
   color:white;
