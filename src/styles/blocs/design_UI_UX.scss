@@ -112,14 +112,14 @@ main {
     padding: 12px;
 }
 
-.arrow-prev{
+.arrow-prev {
   left:-30px;
   position:absolute;
   top:50%;
   transform:translateY(-50%) rotate(135deg);
 }
  
-.arrow-next{
+.arrow-next {
     right:-30px;
   position:absolute;
   top:50%;
@@ -152,13 +152,15 @@ background-repeat: no-repeat;
 background-position: center;
   /*background-size:cover;*/
   }
-.item-2{
+
+.item-2 {
   background:url('../img/design_2.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
-.item-3{
+
+.item-3 {
   background:url('../img/design_3.png');
   background-size: contain;
   background-repeat: no-repeat;
