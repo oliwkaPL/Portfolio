@@ -1,25 +1,32 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-axel",
   "version": "1.0.0",
-  "description": "My portfolio with my projects",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oliwkaPL/Portfolio.git"
+    "url": "git+https://github.com/yo-gif12/portfolio-axel.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oliwkaPL/Portfolio/issues"
+    "url": "https://github.com/yo-gif12/portfolio-axel/issues"
   },
-  "homepage": "https://github.com/oliwkaPL/Portfolio#readme",
+  "homepage": "https://github.com/yo-gif12/portfolio-axel#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.0"
   },
   "dependencies": {
-    "sass": "^1.26.0"
+    "@babel/polyfill": "^7.8.7",
+    "font-awesome.min.css": "^3.2.1",
+    "normalize.css": "^8.0.1"
   }
 }
