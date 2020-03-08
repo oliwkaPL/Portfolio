@@ -1,116 +1,202 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles/styles.scss" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css"/>
+    <link rel="stylesheet" href="./css/styles.scss"/>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <title>Portfolio-Oliwia</title>
+</head>
+<body>
+    <div id="container" class="container intro-effect-side">
+        <!-- Top Navigation -->
+  
+        <header class="header" id="about">
+            <div class="bg-img"><img src="./img/3.jpg" alt="Background Image" /></div>
+            <div class="title">
+                <nav class="codrops-demos anchor-nav" role="navigation">
+                    <a class="about current-demo" href="#about" id="about-anchor">à propos</a>
+                    <a href="#soft" id="soft-anchor">soft-skills</a>
+                    <a href="#real" id="real-anchor">Réalisations</a>
+                    <a href="#contact" id="contact-anchor">Contact</a>
+                </nav>
+                <div class="content-bio">
+                    <h1>Oliwia Chêne</h1>
+                    <p class="subline">UX-UI DESIGNER - Basé sur Paris </p>
+                    <p>
+                        <p class="subline-content">Etudiante à Hétic en Bachelor Web, je suis déterminée et animée par l'envie d'apprendre toujours plus.</pclass="subline-content">
+                        <p class="subline-content">
+                            <a href="./img/img/cv.pdf" target="_blank" class="btn">Télécharger mon CV</a>
+                        </p>
+                        <p class="subline-content">
+                            <a href="#" class="social"><i class="fa fa-github"></i></a>
+                            <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+                            <a href="#" class="social"><i class="fa fa-dribbble"></i></a>
+                        </p>
+                    </p>
+                </div>
+            </div>
+        </header>
+        <button class="trigger about" data-info="Parcourez mon portofolio"><span>Trigger</span></button>
+        <main class="content">
+            <section class="block" id="soft">
+                <h1 class="title-section">
+                    <span>SOFT-SKILLS</span>
+                    <nav class="codrops-demos anchor-nav" role="navigation">
+                        <a href="#about" id="about-anchor">à propos</a>
+                        <a href="#real" id="real-anchor">Réalisations</a>
+                        <a href="#contact" id="contact-anchor">Contact</a>
+                    </nav>
+                </h1>
+                <div class="main">
+                    <article class="article-soft">
+                        <div class="left"><img src="./img/icon/icon1.png" alt=""></div>
+                        <div class="right">
+                            <h3>Autonome</h3>
+                            <p>
+                                Je sais travailler en autonomie et faire mes recherches moi-même lorsque je ne sais pas réaliser certaines tâches.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="article-soft">
+                        <div class="left"><img src="./img/icon/icon2.png" alt=""></div>
+                        <div class="right">
+                            <h3>Communicante</h3>
+                            <p>
+                                Grâce à mon excpérience professionelle et scolaire, je sais travailler en équipe en mettant mes émotions de coté.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="article-soft">
+                        <div class="left"><img src="./img/icon/icon3.png" alt=""></div>
+                        <div class="right">
+                            <h3>Créative</h3>
+                            <p>
+                                Ayant un esprit créatif depuis ma plus tendre enfance, je suis perfectionniste dans les moindre détails.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="article-soft">
+                        <div class="left"><img src="./img/icon/icon4.png" alt=""></div>
+                        <div class="right">
+                            <h3>Rigoureuse</h3>
+                            <p>
+                                Persevérante et motivée, je m’obstine à faire des efforts malgré les obstacles rencontrés.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="article-soft">
+                        <div class="left"><img src="./img/icon/icon5.png" alt=""></div>
+                        <div class="right">
+                            <h3>A l'écoute</h3>
+                            <p>
+                                S’intégrant aux groupes, je suis toujours à la recherche de conseils et d’avis sur mon travail afin de m’améliorer.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="article-soft">
+                        <div class="left"><img src="./img/icon/icon6.png" alt=""></div>
+                        <div class="right">
+                            <h3>Curieuse</h3>
+                            <p>
+                                Passionée du numérique, je suis l’actualité et les tendances afin d’optimiser ma veille.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="topic has-animation animation-rtl"  data-delay="100">
+                <blockquote>C’est en faisant des erreurs que l’on apprend et que l’on développe. Il faut être mauvais pour devenir bon.” Paula Scher</blockquote>        
+            </section>
+            <section class="features" id="real">
+                <h1 class="title-section">
+                    <span>réalisation</span>
+                    <nav class="codrops-demos anchor-nav" role="navigation">
+                        <a href="#about" id="about-anchor">à propos</a>
+                        <a href="#soft" id="soft-anchor">soft-skills</a>
+                        <a href="#contact" id="contact-anchor">Contact</a>
+                    </nav>
+                </h1>
+                <div class="main" > 
+                    <!-- TENTH EXAMPLE -->
+                    <div class="view view-tenth">
+                        <img class="one" src="./img/img/desktop3.png" />
+                        <div class="mask">
+                            <h2>Hover Style #10</h2>
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <img class="one" src="./img/img/desktop4.png" />
+                        <div class="mask">
+                            <h2>Hover Style #10</h2>
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <img class="one" src="./img/img/desktop5.png" />
+                        <div class="mask">
+                            <h2>Hover Style #10</h2>
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <img class="one" src="./img/img/desktop1.png" />
+                        <div class="mask">
+                            <h2>Hover Style #10</h2>
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <img class="one" src="./img/img/desktop2.png" />
+                        <div class="mask">
+                            <h2>Hover Style #10</h2>
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="view view-tenth">
+                        <div class="one">
+                            <img src="./img/img/mobile1.png" />
+                            <img src="./img/img/mobile2.png" />
+                            <img src="./img/img/mobile3.png" />
+                        </div>
+                        <div class="mask">
+                            <h2>Hover Style #10</h2>
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="contact">
+            <section class="section-footer">
+                <div><img src="./img/img/photo_cv.png"></div>
+                <div class="center">
+                    <p>Oliwia CHÊNE, étudiante en Bachelor Web à Hétic, une des plus grandes écoles de numérique en région parisienne - N'hésitez pas à me contacter pour un stage qui pourrait déboucher sur un contrat en alternance ! A très vite. </p>
+                </div>
+                <div class="contact">
+                    <p>Contactez-moi : </p>
+                    <aside>Portable : 07 77 37 15 45</aside>
+                    <aside>Email : oliwiachene@gmail.com</aside>
+                </div>
+            </section>
+        </footer>
 
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <header class="heroHeader">
-      <nav>
-        <ul class="menu">
-          <li><a class="link--active" href="#">Accueil</a></li>
-          <li>
-            <a class="link--soft_skills" href="#">Soft skills</a>
-          </li>
-          <li>
-            <a class="link--projects" href="#">Projets</a>
-          </li>
-          <li>
-            <a class="contact" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main class="hero">
-      <section class="homepage">
-        <h1 class="hero__title">Oliwia Chêne</h1>
-        <p class="hero__employment">UX/UI designer</p>
-        <p class="hero__description">
-          Etudiante à Hétic en Bachelor Web, je suis déterminée et animée par
-          l'envie d'apprendre toujours plus.
-        </p>
-
-        <a class="hero__about" href="assets/img/cv.pdf" target="_blank"
-          >Télécharger mon CV</a
-        >
-
-        <section class="hero__links">
-          <ul>
-            <li>
-              <a href="https://github.com/oliwkaPL">
-                <img src="assets/icon/git_hub.png" alt="" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/oliwia-ch%C3%AAne-9aa656194/"
-              >
-                <img src="assets/icon/linked_in.png" alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="https://dribbble.com/oliwka_pl">
-                <img src="assets/icon/dribble.png" alt="" />
-              </a>
-            </li>
-          </ul>
-        </section>
-      </section>
-      <section class="soft-skills">
-        <div class="bloc_autonomy">
-          <img src="assets/icon/icon1.png" alt="" />
-          <p class="title_autonomy">Autonomie</p>
-          <p class="text_autonomy">
-            Je sais travailler en autonomie et faire mes recherches moi-même
-            lorsque je ne sais pas réaliser certaines tâches.
-          </p>
-        </div>
-        <div class="bloc_communicating">
-          <img src="assets/icon/icon2.png" alt="" />
-          <p class="title_communicatin">Communicante</p>
-          <p class="text_communicating">
-            Grâce à mon excpérience professionelle et scolaire, je sais
-            travailler en équipe en mettant mes émotions de coté.
-          </p>
-        </div>
-        <div class="bloc_creative">
-          <img src="assets/icon/icon3.png" alt="" />
-          <p class="title_creative">Créative</p>
-          <p class="text_creative">
-            Ayant un esprit créatif depuis ma plus tendre enfance, je suis
-            perfectionniste dans les moindre détails.
-          </p>
-        </div>
-        <div class="bloc_rigorous">
-          <img src="assets/icon/icon4.png" alt="" />
-          <p class="title_rigorous">Rigoureuse</p>
-          <p class="text_rigorous">
-            Persevérante et motivée, je m’obstine à faire des efforts malgré les
-            obstacles rencontrés.
-          </p>
-        </div>
-        <div class="bloc_listening">
-          <img src="assets/icon/icon5.png" alt="" />
-          <p class="title_listening">A l'écoute</p>
-          <p class="text_listening">
-            S’intégrant aux groupes, je suis toujours à la recherche de conseils
-            et d’avis sur mon travail afin de m’améliorer.
-          </p>
-        </div>
-        <div class="bloc_curious">
-          <img src="assets/icon/icon6.png" alt="" />
-          <p class="title_curious">Curieuse</p>
-          <p class="text_curious">
-            Passionée du numérique, je suis l’actualité et les tendances afin
-            d’optimiser ma veille.
-          </p>
-        </div>
-      </section>
-    </main>
-  </body>
+    </div><!-- /container -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/ScrollToPlugin.min.js"></script>
+    <script src="https://codepen.io/grayghostvisuals/pen/a08e0d79c150ff5030f9b6afaa137749"></script>
+    <script src="./js/script.js"></script>
+</body>
 </html>
