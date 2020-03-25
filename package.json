@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-axel",
+  "name": "portfolio-oliwia",
   "version": "1.0.0",
-  "description": "",
+  "description": "My portfolio with my projects",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
@@ -28,5 +28,8 @@
     "@babel/polyfill": "^7.8.7",
     "font-awesome.min.css": "^3.2.1",
     "normalize.css": "^8.0.1"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }

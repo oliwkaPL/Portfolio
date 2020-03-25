@@ -230,6 +230,16 @@ $color-black : "#000000";
     }
 }
 
+.author_blockquote {
+    padding: 0.25em;
+    font-style: italic;
+    line-height: 1.4;
+    max-width: 750px;
+    text-align: center;
+    margin: auto;
+
+}
+
 .content > .block:not(.title) {
 	margin: -80px auto 0;
 	max-width: 1300px;
